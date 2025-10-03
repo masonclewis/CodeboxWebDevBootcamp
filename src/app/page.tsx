@@ -1,4 +1,5 @@
 import supabase from "./supabaseClient";
+require("dotenv").config();
 
 let { data, error } = await supabase.from("users").select("*");
 
