@@ -1,7 +1,6 @@
 Mason here. This is my Codebox web bootcamp submission. The website grabs data from the supabase table and displays it.
 
 Wanna check out the site deployed on Vercel?  
-VVVVV
 https://codebox-web-dev-bootcamp.vercel.app/
 
 ## Getting Started
