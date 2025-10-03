@@ -24,13 +24,20 @@ export default function Home() {
     fetchData();
   }, []);
 
+  function doClick() {
+    alert("Hi");
+  }
+
   console.log(rows);
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-black">
       <h1 className="text-4xl font-bold text-blue-600 mb-6">
         🚀 Welcome to My First Next.js + Tailwind Page!
       </h1>
-      <button className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition">
+      <button
+        className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition>"
+        onClick={doClick}
+      >
         Click Me!
       </button>
       <div className="overflow-x-auto">
