@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Mason here. This is my Codebox web bootcamp submission. The website grabs data from the supabase table and displays it.
 
 ## Getting Started
 
